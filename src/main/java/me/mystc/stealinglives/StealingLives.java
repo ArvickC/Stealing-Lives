@@ -23,7 +23,7 @@ public final class StealingLives extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        // When Plugin Starts
         instance = this;
 
         PlayerHealth.setup();
@@ -41,7 +41,7 @@ public final class StealingLives extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        // When Plugin Stops
         System.out.println(ChatColor.translateAlternateColorCodes('&', "&7[&cStealing Lives&7] Plugin&c Activated&7."));
     }
 
