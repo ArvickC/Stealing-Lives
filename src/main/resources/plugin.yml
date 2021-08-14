@@ -1,0 +1,17 @@
+name: StealingLives
+version: 1.1.0
+main: me.mystc.stealinglives.StealingLives
+api-version: 1.17
+authors: [mystc]
+description: When you kill someone, you steal their heart.
+permissions:
+  stealinglives.reload:
+    description: use the reload command
+  stealinglives.sethealth:
+    description: use the sethp command
+commands:
+  vreload:
+    description: reloads the data file
+  sethealth:
+    description: set the health of a player
+    aliases: [sethp]

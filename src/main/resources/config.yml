@@ -1,0 +1,26 @@
+# Welcome to stealing lives
+# this is a plugin where when you kill someone
+# you can 'steal' their heart
+
+# What to do when someone lost all their hearts
+# Options are:
+# "keep" - Keeps them in the game with ONLY half a heart (Value can change below)
+# "ban" - Bans the player from the server (Ban message configurable)
+# "kick" - Kicks the player from the server and sets their hearts to 1.0 [half a heart] (Kick message configurable)
+if-no-hearts: "keep"
+
+# Send message to entire server when someone reaches the lowest heart value. (will only work if "if-no-hearts" is set to ban or kick)
+broadcast-deahts: true
+
+# the message that will be broadcast
+# <player> = player that dies
+# <killer> = player that killed the <player>
+# <health> = killer health.
+broadcast-message: "&a<player>&7 has&c died&7 to&a <killer>"
+
+# remember this value is halfed, so if you put in 10, they will get a lowest value of 5 full hearts
+lowest-heart-value: 1.0
+
+ban-message: "\n&cDEATH&7 \n\nYou have&c lost&7 all your&c hearts&7."
+
+kick-message: "\n&cDEATH&7 \n\nYou have&c lost&7 all your&c hearts&7."
