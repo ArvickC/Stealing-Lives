@@ -4,6 +4,8 @@ When you kill someone in minecraft, you can 'steal' their heart and add it to yo
 
 [Spigot Download](https://www.spigotmc.org/resources/stealing-lives.95179/)
 
+[Showcase Videp](https://youtu.be/SA-Cln09tqI)
+
 ## Commands
 
 - /vreload | reloads the plugin
